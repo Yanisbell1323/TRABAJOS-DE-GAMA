@@ -1,0 +1,32 @@
+   body, html {
+      height: 100%;
+      margin: 0;
+      background-color: #ffffff;
+    }
+
+    .center-container {
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .form-box {
+      background: rgb(255, 255, 255);
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 0 15px rgba(248, 222, 222, 0.1);
+      width: 200%;
+      max-width: 800px;
+    }
+   
+     
+  body {
+    background-image: url('Fondo\ de\ pantalla\ negro.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    }
+   
+
+    

@@ -1,0 +1,31 @@
+ body {
+      min-height: 100vh;
+      display: flex;
+      font-family: Arial, sans-serif;
+    }
+
+    .sidebar {
+      width: 250px;
+      background-color: #463f53;
+      color: white;
+      padding: 20px;
+    }
+
+    .sidebar a {
+      color: white;
+      text-decoration: none;
+      display: block;
+      margin: 15px 0;
+    }
+
+    .sidebar a:hover {
+      background-color: #f7c2f2;
+      padding-left: 10px;
+    }
+
+    .main-content {
+      flex-grow: 1;
+      padding: 30px;
+      background-color: #f8f9fa;
+    }
+    
