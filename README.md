@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>panel de administracion</title>
+    <link rel="stylesheet" href="panel.css">
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    
+  <div class="sidebar">
+    <h4> Administracion</h4>
+    <a href="panel.html">informacion de la empresa</a>
+    <a href="nos.html">Nosotros</a>
+    <a href="prod.html">Productos</a>
+    <a href="rep.html">Reportes</a>
+    <a href="form.html">Formulario</a>
+  </div>
+
+  <div class="main-content">
+    <h2>Bienvenido al Panel de Monkey</h2>
+    <p>Adminitracion de mi sitio </p>
+
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card text-white bg-primary mb-3">
+          <div class="card-body">
+            <h5 class="card-title">Usuarios</h5>
+            <p class="card-text">Total: 124</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card text-white bg-success mb-3">
+          <div class="card-body">
+            <h5 class="card-title">Productos</h5>
+            <p class="card-text">Total: 156</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  <section class="hero">
+    <div class="container">
+      <h1 class="display-4">Maquillaje Bella</h1>
+      <p class="lead">Belleza real, poder real. Conecta con tu estilo, resalta tu esencia.</p>
+    </div>
+  </section>
+
+  <section class="section bg-light">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-6">
+          <h3>Nuestra Historia</h3>
+          <p>Fundada en 2020, Maquillaje Bella nació con la misión de brindar productos de alta calidad, accesibles y seguros para todo tipo de piel. Nos apasiona la innovación y creemos que el maquillaje debe empoderar, no esconder.</p>
+        </div>
+        <div class="col-md-6">
+          <h3>Visión & Valores</h3>
+          <p>Queremos ser líderes en cosmética ética e inclusiva. Nuestros valores: autenticidad, diversidad, respeto por el medio ambiente y compromiso con nuestros clientes.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="section">
+    <div class="container">
+      <h3 class="text-center mb-5">¿Qué Ofrecemos?</h3>
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="icon-box shadow-sm">
+            <h5>Productos de calidad</h5>
+            <p>Base, labiales, sombras, delineadores y más... formulados para durar y cuidar tu piel.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="icon-box shadow-sm">
+            <h5>Atención personalizada</h5>
+            <p>Asesoría para escoger el tono ideal o crear tu rutina de maquillaje diaria.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="icon-box shadow-sm">
+            <h5>Compromiso social</h5>
+            <p>No realizamos pruebas en animales. Apoyamos causas de empoderamiento femenino.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="bg-dark text-white text-center py-3">
+    &copy; 2025 Maquillaje Bella. Todos los derechos reservados.
+  </footer>
+</body>
+</html>
